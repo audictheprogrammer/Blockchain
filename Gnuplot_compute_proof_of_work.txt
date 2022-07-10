@@ -1,0 +1,6 @@
+set title "Temps en fonction du nombre de zeros"
+set xlabel "Nombre de zeros"
+set ylabel "Temps(s)"
+set logscale y 2
+
+plot "Compute_proof_of_work.txt" using 1:2 title "Proof of work" with linespoint
